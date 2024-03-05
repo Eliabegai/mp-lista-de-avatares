@@ -1,52 +1,36 @@
-# [📅 Lista de Avatares com TailwindCSS](https://codante.io/mini-projetos/lista-avatares-tailwindcss)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Explore e amplie suas habilidades com TailwindCSS criando um componente visual de lista de avatares!
+## Getting Started
 
-## 🔨 Requisitos
-- Utilize TailwindCSS para estilizar e criar o componente.
-- O componente deve ser desenvolvido pensando na responsividade e adaptabilidade.
+First, run the development server:
 
-### Componente da Lista de Avatares
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- Crie um componente que exiba uma lista de avatares.
-  - Os avatares devem ficar levemente sobrepostos uns aos outros.
-  - A lista de avatares deve se adaptar à largura do container que a contém.
-- Desenvolva uma borda com gradiente para cada avatar.
-- Torne o componente customizável:
-  - Através de variáveis CSS ou, se estiver usando uma biblioteca como React, com props.
-  - Algumas opções de customização: cor da borda, tamanho da borda e tamanho dos avatares.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Deploy
-- Faça o deploy de uma página utilizando o seu componente.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## 🔨 Desafios extras para quem quer ir além
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-- Disponibilize o componente como uma lib no npm.
+## Learn More
 
-## 🔍 Dicas
-- Estude sobre as capacidades do TailwindCSS, um framework CSS focado na produtividade e eficiência.
-- Se estiver usando o React, familiarize-se com a passagem de props e customização de componentes.
+To learn more about Next.js, take a look at the following resources:
 
-## 🎨 Design Sugerido
-Temos uma sugestão de design no Figma. Entretanto, fique à vontade para usar sua criatividade e criar um design único.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-🔗 [Link do Figma](https://www.figma.com/community/file/1271829482761815709)
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-![Screenshots do mini-projeto](https://github.com/codante-io/mp-lista-de-avatares/assets/6475893/11a03ac8-aba0-4a31-bca5-3994def74b89)
+## Deploy on Vercel
 
-## 👉🏽 Sobre esse mini-projeto
-### Tecnologias sugeridas
-**TailwindCSS**
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### Pré-requisitos
-- `HTML, CSS`
-- (Opcional) `JavaScript, React`
-
-## ❓ FAQ
-### Posso utilizar outros frameworks além do TailwindCSS?
-Esse projeto foi pensado especificamente para praticar o uso do TailwindCSS na criação de componentes visuais. Portanto, a resolução oficial seguirá essa direção.
-
-Se desejar explorar outros frameworks, sinta-se à vontade. No entanto, a solução oficial pode não abordar essas variações. 
-
-### Como faço para ver a resolução oficial?
-A resolução oficial sempre é disponibilizada no [site oficial do Codante](https://codante.io). Algumas resoluções são abertas e outras são exclusivas para os nossos membros PRO.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
