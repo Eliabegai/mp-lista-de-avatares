@@ -5,7 +5,6 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { generateUsers } from "@/lib/data";
 import { useState } from "react";
 
-//[&>div]:-ml-2 ml-2 [&>div]:mt-3 -mt-3
 
 export default function Home() {
   
